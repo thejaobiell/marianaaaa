@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container1{
+    background-color:#3E8DBD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box1{
+    margin-left: 50px;
+}
+
+.texto1{
+    font-family: 'Arial';
+    font-size: 75px;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.btn1{
+    background-color: #FFD976;
+    color: #3E8DBD;
+    font-family: 'Arial';
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 30vw;
+    border: none;
+    margin-top: 25px;
+}
+
+.img1{
+    width: auto;
+    height: auto;
+}
+
+/* ------ */
+
+.container2{
+    background-color: #FFD976;
+}
+
+.divPAI2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 300px;
+    align-items: center;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.texto2{
+    font-family: 'Arial';
+    font-size: 50px;
+    color: #3E8DBD;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
+.img2{
+    width: 100%;
+    height: auto;
+}
+
+.p1{
+    font-family: 'Arial';
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.divBTN{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn2{
+    background-color: #3E8DBD;
+    color: #FFFFFF;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 20px;
+    padding: 16px 16px;
+    border-radius: 20vw;
+    border: none;
+    margin-top: 20px;
+}
+
+/* ------- */
+
+.container3{
+    background-color: #3E8DBD;;
+}
+
+.texto3, .p2{
+    color: white;
+    text-align: center;
+    font-family: "arial";
+}
+
+.texto3{
+    font-size: 5vh;
+}
+
+.p2{
+    font-size: 2vh;
+}
+
+.containerCard{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 10px;
+}
+.card2{ 
+    width: 400px;
+}
+
+.card2 img{
+    width: 100%;
+    height: auto;
+}
+
+.divtexto1{
+    width: 100%;
+}
+
+.divtexto1 p{
+    font-size: 18px;
+    font-family: 'Arial';
+    color: white;
+}
+
+/* --------- */
+
+.container4 {
+    background-color: whitesmoke;
+}
+
+.texto4 {
+    color:#3E8DBD;
+    text-align: center;
+    font-family: "arial";
+    font-size: 5vh;
+    margin-top: 10px;
+}
+
+.containerCard2 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card3 {
+    width: 400px;
+}
+
+.card3 img {
+    width: 100%;
+    height: auto;
+}
+
+.divtexto2 {
+    width: 100%;
+}
+
+.divtexto2 p {
+    font-size: 18px;
+    font-family: 'Arial';
+    color: #3E8DBD;
+}
