@@ -1,27 +1,24 @@
+/* CSS BASE - DESKTOP (mantido como está) */
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
 }
-
 .container1{
     background-color:#3E8DBD;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-
 .box1{
     margin-left: 50px;
 }
-
 .texto1{
     font-family: 'Titan One';
     font-size: 75px;
     color: #ffffff;
     line-height: 1.6;
 }
-
 .btn1{
     background-color: #FFD976;
     color: #3E8DBD;
@@ -32,23 +29,18 @@
     border-radius: 30vw;
     border: none;
 }
-
 .img1{
     width: auto;
     height: auto;
 }
-
 /* ------ */
-
 .container2{
     background-color: #FFD976;
 }
-
 .divPAI2{
     display: flex;
     justify-content: space-evenly;
 }
-
 .card{
     background-color: rgb(255, 255, 255);
     width: 200px;
@@ -57,7 +49,6 @@
     padding: 40px;
     margin-bottom: 20px;
 }
-
 .texto2{
     font-family: 'Titan One';
     font-size: 50px;
@@ -66,26 +57,22 @@
     margin-bottom: 20px;
     padding-top: 50px;
 }
-
 .img2{
     width: 100%;
     height: auto;
     margin: auto;
 }
-
 .p1{
     font-family: 'Titan One';
     font-size: 20px;
     color: #3E8DBD;
     text-align: center;
 }
-
 .divBTN{
     width: 100%;
     display: flex;
     justify-content: center;
 }
-
 .btn2{
     background-color: #3E8DBD;
     color: #FFFFFF;
@@ -97,27 +84,21 @@
     border: none;
     margin-top: 20px;
 }
-
 /* ------- */
-
 .container3{
     background-color: #3E8DBD;;
 }
-
 .texto3, .p2{
     color: white;
     text-align: center;
     font-family: 'Titan One';
 }
-
 .texto3{
     font-size: 5vh;
 }
-
 .p2{
     font-size: 2vh;
 }
-
 .containerCard{
     display: flex;
     justify-content: space-evenly;
@@ -127,28 +108,22 @@
 .card2{ 
     width: 400px;
 }
-
 .card2 img{
     width: 100%;
     height: auto;
 }
-
 .divtexto1{
     width: 100%;
 }
-
 .divtexto1 p{
     font-size: 18px;
     font-family: 'Arial';
     color: white;
 }
-
 /* --------- */
-
 .container4 {
     background-color: whitesmoke;
 }
-
 .texto4 {
     color:#3E8DBD;
     text-align: center;
@@ -156,35 +131,28 @@
     font-size: 5vh;
     margin-top: 10px;
 }
-
 .containerCard2 {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
     margin-top: 10px;
 }
-
 .card3 {
     width: 400px;
 }
-
 .card3 img {
     width: 100%;
     height: auto;
 }
-
 .divtexto2 {
     width: 100%;
 }
-
 .divtexto2 p {
     font-size: 18px;
     font-family: 'Arial';
     color: #3E8DBD;
 }
-
 /*  */
-
 .footer {
     background: linear-gradient(135deg, #3E8DBD 0%, #2a6a8f 100%);
     font-family: 'Arial';
@@ -195,7 +163,6 @@
     justify-content: center;
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
 }
-
 .footer-content {
     display: flex;
     flex-direction: column;
@@ -204,14 +171,12 @@
     max-width: 1200px;
     width: 100%;
 }
-
 .footer-text {
     color: white;
     font-size: 1.1rem;
     margin: 0;
     font-weight: 600;
 }
-
 .footer-text a{
     color: rgb(0, 255, 136);
     font-size: 1.1rem;
@@ -219,15 +184,191 @@
     font-weight: 600;
     text-decoration: none;
 }
-
 .footer-text a:hover{
     color: black;
 }
-
 .footer-text a:visited {
     color:  rgb(0, 255, 136);
 }
-
 .footer-text a:active {
     color: black;
+}
+
+/* ========================================= */
+/* RESPONSIVIDADE MOBILE */
+/* ========================================= */
+
+@media screen and (max-width: 768px) {
+    /* Container 1 - Hero Section */
+    .container1 {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .box1 {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    
+    .texto1 {
+        font-size: 36px;
+        line-height: 1.3;
+    }
+    
+    .btn1 {
+        font-size: 18px;
+        padding: 12px 24px;
+        display: inline-block;
+    }
+    
+    .img1 {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+    
+    /* Container 2 - Cards de Dor */
+    .texto2 {
+        font-size: 32px;
+        padding-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .divPAI2 {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+    }
+    
+    .card {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        padding: 30px 20px;
+        margin-bottom: 20px;
+    }
+    
+    .p1 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    
+    .btn2 {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+    
+    /* Container 3 - Tratamentos (fundo azul) */
+    .container3 {
+        padding: 20px 10px;
+    }
+    
+    .texto3 {
+        font-size: 28px;
+        padding: 20px 10px;
+    }
+    
+    .p2 {
+        font-size: 18px;
+        padding: 10px;
+    }
+    
+    .containerCard {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px;
+    }
+    
+    .card2 {
+        width: 100%;
+        max-width: 350px;
+        margin-bottom: 30px;
+    }
+    
+    .divtexto1 p {
+        font-size: 16px;
+        padding: 15px 10px;
+        line-height: 1.5;
+    }
+    
+    /* Container 4 - Tratamentos (fundo branco) */
+    .container4 {
+        padding: 20px 10px;
+    }
+    
+    .texto4 {
+        font-size: 28px;
+        padding: 20px 10px;
+        margin-top: 0;
+    }
+    
+    .containerCard2 {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px;
+    }
+    
+    .card3 {
+        width: 100%;
+        max-width: 350px;
+        margin-bottom: 30px;
+    }
+    
+    .divtexto2 p {
+        font-size: 16px;
+        padding: 15px 10px;
+        line-height: 1.5;
+    }
+    
+    /* Footer */
+    .footer {
+        padding: 20px 15px;
+    }
+    
+    .footer-content {
+        gap: 10px;
+    }
+    
+    .footer-text {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    
+    .footer-text a {
+        font-size: 0.9rem;
+    }
+}
+
+/* Ajustes para telas muito pequenas (< 480px) */
+@media screen and (max-width: 480px) {
+    .texto1 {
+        font-size: 28px;
+    }
+    
+    .btn1 {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    
+    .texto2 {
+        font-size: 26px;
+    }
+    
+    .texto3, .texto4 {
+        font-size: 24px;
+    }
+    
+    .card2, .card3 {
+        max-width: 100%;
+    }
+    
+    .divtexto1 p, .divtexto2 p {
+        font-size: 14px;
+    }
+    
+    .footer-text, .footer-text a {
+        font-size: 0.8rem;
+    }
 }
