@@ -1,12 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 .container1{
     background-color:#3E8DBD;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -15,7 +16,7 @@
 }
 
 .texto1{
-    font-family: 'Arial';
+    font-family: 'Titan One';
     font-size: 75px;
     color: #ffffff;
     line-height: 1.6;
@@ -25,11 +26,11 @@
     background-color: #FFD976;
     color: #3E8DBD;
     font-family: 'Arial';
+    font-weight: bold;
     font-size: 24px;
     padding: 10px 20px;
     border-radius: 30vw;
     border: none;
-    margin-top: 25px;
 }
 
 .img1{
@@ -58,7 +59,7 @@
 }
 
 .texto2{
-    font-family: 'Arial';
+    font-family: 'Titan One';
     font-size: 50px;
     color: #3E8DBD;
     text-align: center;
@@ -69,14 +70,14 @@
 .img2{
     width: 100%;
     height: auto;
+    margin: auto;
 }
 
 .p1{
-    font-family: 'Arial';
+    font-family: 'Titan One';
     font-size: 20px;
-    color: #000000;
+    color: #3E8DBD;
     text-align: center;
-    white-space: nowrap;
 }
 
 .divBTN{
@@ -106,7 +107,7 @@
 .texto3, .p2{
     color: white;
     text-align: center;
-    font-family: "arial";
+    font-family: 'Titan One';
 }
 
 .texto3{
@@ -151,7 +152,7 @@
 .texto4 {
     color:#3E8DBD;
     text-align: center;
-    font-family: "arial";
+    font-family: 'Titan One';
     font-size: 5vh;
     margin-top: 10px;
 }
