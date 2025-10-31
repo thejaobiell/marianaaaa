@@ -1,4 +1,3 @@
-/* CSS BASE - DESKTOP (mantido como está) */
 * {
     margin: 0;
     padding: 0;
@@ -33,7 +32,6 @@
     width: auto;
     height: auto;
 }
-/* ------ */
 .container2{
     background-color: #FFD976;
 }
@@ -84,7 +82,6 @@
     border: none;
     margin-top: 20px;
 }
-/* ------- */
 .container3{
     background-color: #3E8DBD;;
 }
@@ -120,7 +117,6 @@
     font-family: 'Arial';
     color: white;
 }
-/* --------- */
 .container4 {
     background-color: whitesmoke;
 }
@@ -152,7 +148,6 @@
     font-family: 'Arial';
     color: #3E8DBD;
 }
-/*  */
 .footer {
     background: linear-gradient(135deg, #3E8DBD 0%, #2a6a8f 100%);
     font-family: 'Arial';
@@ -194,12 +189,7 @@
     color: black;
 }
 
-/* ========================================= */
-/* RESPONSIVIDADE MOBILE */
-/* ========================================= */
-
 @media screen and (max-width: 768px) {
-    /* Container 1 - Hero Section */
     .container1 {
         flex-direction: column;
         padding: 20px;
@@ -227,8 +217,7 @@
         max-width: 400px;
         height: auto;
     }
-    
-    /* Container 2 - Cards de Dor */
+
     .texto2 {
         font-size: 32px;
         padding-top: 30px;
@@ -260,7 +249,6 @@
         padding: 12px 20px;
     }
     
-    /* Container 3 - Tratamentos (fundo azul) */
     .container3 {
         padding: 20px 10px;
     }
@@ -293,7 +281,6 @@
         line-height: 1.5;
     }
     
-    /* Container 4 - Tratamentos (fundo branco) */
     .container4 {
         padding: 20px 10px;
     }
@@ -322,7 +309,6 @@
         line-height: 1.5;
     }
     
-    /* Footer */
     .footer {
         padding: 20px 15px;
     }
@@ -341,7 +327,6 @@
     }
 }
 
-/* Ajustes para telas muito pequenas (< 480px) */
 @media screen and (max-width: 480px) {
     .texto1 {
         font-size: 28px;
