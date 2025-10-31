@@ -187,7 +187,7 @@
 
 .footer {
     background: linear-gradient(135deg, #3E8DBD 0%, #2a6a8f 100%);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial';
     padding: 30px 20px;
     min-height: 10vh;
     display: flex;
@@ -212,8 +212,22 @@
     font-weight: 600;
 }
 
-.footer-copyright {
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 0.9rem;
+.footer-text a{
+    color: rgb(0, 255, 136);
+    font-size: 1.1rem;
     margin: 0;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.footer-text a:hover{
+    color: black;
+}
+
+.footer-text a:visited {
+    color:  rgb(0, 255, 136);
+}
+
+.footer-text a:active {
+    color: black;
 }
